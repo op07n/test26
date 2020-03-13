@@ -28,3 +28,18 @@ jobs:
         with:
           name: artifact
           path: ./uMap/bin/Debug
+
+
+      - name: Create ZIP
+        shell: pwsh
+        run: |
+          cd $Env:GITHUB_WORKSPACE\uMap\bin\
+          mv Debug uMap
+          Compress-Archive -Path .\uMap -DestinationPath uMap-win-x64.zip
+      - name: Upload to Existing Release
+        uses: Shopify/upload-to-release@1.0.0
+        with:
+          name: uMap-win-x64.zip
+          path: $Env:GITHUB_WORKSPACE\uMap\bin\uMap-win-x64.zip
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          content-type: application/gzip
