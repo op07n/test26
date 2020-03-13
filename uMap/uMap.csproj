@@ -41,7 +41,97 @@
   <PropertyGroup>
     <ApplicationIcon>ew.ico</ApplicationIcon>
   </PropertyGroup>
-  <ItemGroup>
+
+
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net40' ">
+    
+    <Reference Include="DevExpress.Data.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Data_yesfree.18.2.5\lib\net40\DevExpress.Data.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Images_yesfree.18.2.5\lib\net40\DevExpress.Images.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Map.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Map.Core_yesfree.18.2.5\lib\net40\DevExpress.Map.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Mvvm_yesfree.18.2.5\lib\net40\DevExpress.Mvvm.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Office.Core_yesfree.18.2.5\lib\net40\DevExpress.Office.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Pdf.Core_yesfree.18.2.5\lib\net40\DevExpress.Pdf.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Printing.Core_yesfree.18.2.5\lib\net40\DevExpress.Printing.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.RichEdit.Core_yesfree.18.2.5\lib\net40\DevExpress.RichEdit.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Sparkline.Core_yesfree.18.2.5\lib\net40\DevExpress.Sparkline.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Utils_yesfree.18.2.5\lib\net40\DevExpress.Utils.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Core.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Docking_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Docking.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DocumentViewer.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.DocumentViewer.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.DocumentViewer.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Grid_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Grid.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Grid.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Grid.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Layout.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Layout.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.LayoutControl_yesfree.18.2.5\lib\net40\DevExpress.Xpf.LayoutControl.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Map.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Map_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Map.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Printing_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Printing.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Ribbon_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Ribbon.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Themes.Office2016White_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Ribbon.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.XtraBars_yesfree.18.2.5\lib\net40\DevExpress.XtraBars.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.XtraEditors_yesfree.18.2.5\lib\net40\DevExpress.XtraEditors.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.XtraLayout_yesfree.18.2.5\lib\net40\DevExpress.XtraLayout.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.XtraMap_yesfree.18.2.5\lib\net40\DevExpress.XtraMap.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.XtraPrinting_yesfree.18.2.5\lib\net40\DevExpress.XtraPrinting.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.XtraTreeList_yesfree.18.2.5\lib\net40\DevExpress.XtraTreeList.v18.2.dll</HintPath>
+    </Reference>   
+    
+      
+    
+    
+    
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
