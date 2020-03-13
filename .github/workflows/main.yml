@@ -33,6 +33,7 @@ jobs:
           cd $Env:GITHUB_WORKSPACE\uMap\bin\
           mv Debug uMap
           Compress-Archive -Path .\uMap -DestinationPath uMap-win-x64.zip
+          dir
 
       - name: Publish artefacts
         if: startsWith(github.ref, 'refs/tags/v')
