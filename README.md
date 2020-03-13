@@ -1,4 +1,4 @@
-Duplicate from https://github.com/Ledrunning/uMap
+Duplicate from https://github.com/Ledrunning/uMap 
 
 # uMap
 Simple WPF MVVM application to display a world map using Open Street Map provider
