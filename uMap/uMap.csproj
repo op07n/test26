@@ -42,63 +42,6 @@
     <ApplicationIcon>ew.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Data.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Images.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Images.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Map.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Map.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Mvvm.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Mvvm.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Office.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Office.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Pdf.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Pdf.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Printing.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Printing.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.RichEdit.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.RichEdit.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Core.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Docking.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.DocumentViewer.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Xpf.DocumentViewer.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Grid.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Grid.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Layout.v18.1.Core">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Layout.v18.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.LayoutControl.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.LayoutControl.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Map.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Map.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Printing.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Ribbon.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Ribbon.v18.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v18.1">
-      <HintPath>..\DevExpress\DevExpress.Xpf.Themes.Office2016White.v18.1.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
